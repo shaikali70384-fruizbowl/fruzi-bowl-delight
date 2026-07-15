@@ -33,9 +33,9 @@ export const brand = {
 // Fill in your EmailJS keys (https://www.emailjs.com/) to send orders by email.
 // Leaving them blank falls back to opening the user's mail app with the order.
 export const emailConfig = {
-  serviceId: "",
-  templateId: "",
-  publicKey: "",
+  serviceId: "service_pm075ec",
+  templateId: "template_deedvoq",
+  publicKey: "nzeY6zdVkvOOqukCi",
 };
 
 export const offers = [
