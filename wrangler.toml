@@ -1,0 +1,17 @@
+# Cloudflare Workers config for Fruzi Bowl
+# The Vite build (via nitro) already targets Cloudflare Workers and emits
+# the worker bundle + static assets under `.output/`.
+name = "fruzi-bowl"
+main = ".output/server/index.mjs"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+
+# Custom domain routes (uncomment after adding the domain to your CF account)
+# routes = [
+#   { pattern = "fruzibowl.shop", custom_domain = true },
+#   { pattern = "www.fruzibowl.shop", custom_domain = true },
+# ]
