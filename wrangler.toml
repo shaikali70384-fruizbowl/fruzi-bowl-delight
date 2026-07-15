@@ -1,7 +1,7 @@
 # Cloudflare Workers config for Fruzi Bowl
 # The Vite build (via nitro) already targets Cloudflare Workers and emits
 # the worker bundle + static assets under `.output/`.
-name = "fruzi-bowl"
+name = "fruzi-bowl-delight"
 main = ".output/server/index.mjs"
 compatibility_date = "2025-06-01"
 compatibility_flags = ["nodejs_compat"]
