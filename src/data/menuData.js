@@ -51,16 +51,16 @@ export const bowls = [
 ];
 
 export const fruits = [
-  { id: "banana",      name: "Banana",       serving: "100g", price: 15, image: fBanana },
-  { id: "apple",       name: "Apple",        serving: "100g", price: 15, image: fApple },
-  { id: "dragonfruit", name: "Dragon Fruit", serving: "100g", price: 15, image: fDragon },
-  { id: "guava",       name: "Guava",        serving: "100g", price: 15, image: fGuava },
-  { id: "grapes",      name: "Grapes",       serving: "100g", price: 15, image: fGrapes },
-  { id: "orange",      name: "Orange",       serving: "100g", price: 15, image: fOrange },
-  { id: "papaya",      name: "Papaya",       serving: "100g", price: 15, image: fPapaya },
-  { id: "pineapple",   name: "Pineapple",    serving: "100g", price: 15, image: fPineapple },
-  { id: "watermelon",  name: "Watermelon",   serving: "100g", price: 15, image: fWatermelon },
-  { id: "pomegranate", name: "Pomegranate",  serving: "100g", price: 15, image: fPomegranate },
+  { id: "banana",      name: "Banana",       serving: "100g", price: 30, image: fBanana },
+  { id: "apple",       name: "Apple",        serving: "100g", price: 40, image: fApple },
+  { id: "dragonfruit", name: "Dragon Fruit", serving: "100g", price: 50, image: fDragon },
+  { id: "guava",       name: "Guava",        serving: "100g", price: 30, image: fGuava },
+  { id: "grapes",      name: "Grapes",       serving: "100g", price: 40, image: fGrapes },
+  { id: "orange",      name: "Orange",       serving: "100g", price: 35, image: fOrange },
+  { id: "papaya",      name: "Papaya",       serving: "100g", price: 25, image: fPapaya },
+  { id: "pineapple",   name: "Pineapple",    serving: "100g", price: 30, image: fPineapple },
+  { id: "watermelon",  name: "Watermelon",   serving: "000g", price: 00, image: fWatermelon },
+  { id: "pomegranate", name: "Pomegranate",  serving: "100g", price: 50, image: fPomegranate },
 ];
 
 export const extras = [
